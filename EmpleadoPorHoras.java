@@ -15,6 +15,12 @@ public class EmpleadoPorHoras extends Empleado {
         return salario+(horas*tarifa);
 
     }
+    @Override
+    public String toString(){
+        return super.toString()+"El salario final con las horas es: "+ calcularSalario()+"\n";
+    }
+
+
 
     
 
